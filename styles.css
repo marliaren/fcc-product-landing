@@ -186,6 +186,7 @@
   }
   
   .pic-overlay{
+    border-radius: 20px;
     position: absolute;
     top: 0;
     right: 0;
@@ -194,7 +195,6 @@
     /* background-color: #000; */
     opacity: 0;
     transition: all ease-in-out 800ms;
-    border-radius: 20px;
   }
   
   .eyeglass-box:hover .pic-overlay {
